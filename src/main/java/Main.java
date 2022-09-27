@@ -8,5 +8,5 @@ public class Main {
         Clothing[] managerCart={jeans,tShirt,skirt};
         Clothing[] employeeCart={jeans,tShirt,skirt};
     }
-    ShopApp.calDiscount();
+  //  ShopApp.calDiscount();
 }
