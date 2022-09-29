@@ -11,19 +11,37 @@ public class Clothing {
         this.size = size;
     }
 
-    public double getPrice(){
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public double getPrice() {
         return price;
     }
-    public char getSize(){
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public char getSize() {
         return size;
     }
-    public String toString(){
-        return toString();
-    }
-    String[] clothingItems={"Jeans","T-Shirt","Dress"};
 
-    public double calcDiscount(){
-        return price*discount;
+    public void setSize(char size) {
+        this.size = size;
+    }
+
+    @Override
+    public String toString() {
+        return "Clothing{" +
+                "description='" + description + '\'' +
+                ", price=" + price +
+                ", size=" + size +
+                '}';
     }
 }
 
