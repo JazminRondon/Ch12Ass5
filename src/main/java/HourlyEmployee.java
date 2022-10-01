@@ -10,14 +10,18 @@ public class HourlyEmployee extends Employee implements Discountable{
         return discount;
     }
 
-//    @Override
-//    public void printEmpPriceAfterDisc(Clothing clothing) {
-//        System.out.println(clothing.getPrice()-calcDiscount(clothing));
-//    }
+    @Override
+    public void printEmployeePriceAfterDiscount(Clothing clothing) {
+
+        System.out.println(clothing.getPrice()-calcDiscount(clothing)); //price - discount
+
+    }
+
 
     @Override
     public double calcDiscount(Clothing clothing) {
-        return clothing.getPrice()*discount;
+
+        return getDiscount()*clothing.getPrice();
     }
 
 

@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class Customer extends Person{
+public abstract class Customer extends Person{
 
 
 

@@ -16,7 +16,7 @@ public class Main {
 
         System.out.println("The total price for the manager's cart");
         System.out.println(ShopApp.calcTotal(managerCart));
-        
+
 
 
 
